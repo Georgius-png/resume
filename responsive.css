@@ -1,0 +1,168 @@
+@media (max-width:784px) {
+    .section-first{
+        height: 400px;
+    }
+    .header-body {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 20%;
+    }
+   .header-body h1 {
+        font-size: 30px;
+        margin-bottom:5%;
+   }
+   .header-body h2 {
+       font-size: 25px;
+   }
+   .hamburger-menu {
+       display: inline-block;
+       cursor: pointer;
+       top: 25px;
+       right:10px;
+       position: fixed;
+   }
+   .header-icons {
+       display: none;
+   }
+   .nav-items {
+    visibility: hidden;
+} 
+.img-area img {
+    width: 200px;
+    height: 240px;
+    border-radius: 50%;
+}
+.image-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.service-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.service-cards2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.plan-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+/* .nav-items ul {
+    display: none;
+} */
+
+.resume-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.education, .experience {
+    border-left: 0px;
+    border-bottom: 3px solid rgb(41, 85, 85);
+    padding-top: 20px;
+
+}
+
+.skill-cards {
+    display: flex;
+    flex-direction: column;
+}
+.html-div, .web-div, .js-div, .angular-div, .web-div, .react-div, .typescript-div {
+    width: 90%;
+    margin: auto;
+}
+.carousel-item  {
+    margin-top: 50px;
+    height: 450px;
+}
+
+.contact-asides{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+.left {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.left-name {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+}
+.right-text {
+    border: none;
+}
+
+.right-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog-cards {
+    display: flex;
+    flex-direction: column;
+}
+.blog-card  {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-top-cards{
+    display: flex;
+    flex-direction: column;
+}
+.blog-bottom-cards{
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-top-cards {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: -35px;
+}
+
+.portfolio-bottom-cards {
+    display: flex;
+    flex-direction: column;
+}
+.portfolio-card {
+    margin-top: 15px;
+}
+}
